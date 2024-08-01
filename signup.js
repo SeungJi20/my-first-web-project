@@ -1,4 +1,4 @@
-const users = JSON.parse(localStorage.getItem('users')) || [];
+const users = JSON.parse(localStorage.getItem('users')) || []; //--Project2--
 
 document.getElementById('check-username-btn').addEventListener('click', function() {
   const username = document.getElementById('username').value;

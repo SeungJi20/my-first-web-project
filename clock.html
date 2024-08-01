@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="clock_style.css">
+</head>
+<body>
+    <div id="clock-container">
+        <div id="battery">현재 배터리 : 100%</div>
+        <div id="clock">00:00:00</div>
+        <div id="alarm-container">
+        <!-- 시 입력 -->
+        <input type="number" id="alarm-hours" placeholder="시 (0-23)" min="0" max="23" />
+
+        <!-- 분 입력 -->
+        <input type="number" id="alarm-minutes" placeholder="분 (0-59)" min="0" max="59" />
+
+        <!-- 초 입력 -->
+        <input type="number" id="alarm-seconds" placeholder="초 (0-59)" min="0" max="59" />
+
+
+            <button id="add-alarm-button">알람 추가</button>
+            <div id="alarms">
+                
+            </div>
+        </div>
+    </div>
+    
+    <script src="clock.js"></script>
+</body>
+</html>

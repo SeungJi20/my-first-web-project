@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #282c34;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+#clock-container {
+    text-align: center;
+}
+
+#clock {
+    font-size: 4em;
+    margin: 20px 0;
+}
+
+#battery {
+    font-size: 1.5em;
+}
+
+#alarm-container {
+    margin-top: 20px;
+}
+
+#alarms {
+    margin-top: 10px;
+}
